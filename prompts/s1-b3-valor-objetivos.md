@@ -22,8 +22,8 @@ Calcula con código, no de memoria, el valor en euros de estos objetivos:
 4. Notoriedad (Owned Media Value) de octubre de 2026: impresiones orgánicas del mes / 1.000 × CPM medio
    de paid social. Impresiones orgánicas: las de octubre de todas las publicaciones con
    tipo_publicacion = orgánico (tres redes y dos carriles). El CPM sale de redes_posts.csv con todo
-   el periodo: coste / impresiones × 1.000 de las publicaciones promocionadas con anuncio de Meta
-   (sin las de LinkedIn).
+   el periodo, noviembre incluido: suma del coste / suma de las impresiones × 1.000 de las
+   publicaciones promocionadas que no son de LinkedIn (son 54, todas de Instagram).
 
 [Cafeterías]
 1. Un lead, por primera conversión: tasa de cierre × primer pedido medio × margen B2B.
@@ -36,8 +36,8 @@ Calcula con código, no de memoria, el valor en euros de estos objetivos:
 3. Notoriedad (Owned Media Value) de octubre de 2026: impresiones orgánicas del mes / 1.000 × CPM medio
    de paid social. Impresiones orgánicas: las de octubre de todas las publicaciones con
    tipo_publicacion = orgánico (tres redes y dos carriles). El CPM sale de redes_posts.csv con todo
-   el periodo: coste / impresiones × 1.000 de las publicaciones promocionadas con anuncio de Meta
-   (sin las de LinkedIn).
+   el periodo, noviembre incluido: suma del coste / suma de las impresiones × 1.000 de las
+   publicaciones promocionadas que no son de LinkedIn (son 54, todas de Instagram).
 
 Para cada objetivo enseña la fórmula, los datos que has usado (con filtros y fechas) y el resultado.
 Dime qué supuestos has tenido que hacer.

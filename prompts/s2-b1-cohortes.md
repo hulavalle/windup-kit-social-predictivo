@@ -7,7 +7,8 @@
 Eres analista de retención de Café Fandango. Te adjunto [archivo] y el diccionario.
 
 [Tienda] Cohorte = mes de alta de la suscripción. Activo en el mes k = activa_al_cierre = "sí"
-en la fila con meses_desde_alta = k.
+en la fila con meses_desde_alta = k. Si la suscripción no tiene fila en ese mes (se dio de
+baja antes), cuenta como no activa: el denominador es siempre la cohorte entera.
 [Cafeterías] Cohorte = mes del primer pedido. Activa en el mes k = tiene un pedido con
 meses_desde_alta = k.
 

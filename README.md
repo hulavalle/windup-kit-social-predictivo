@@ -34,7 +34,7 @@ Haz los pasos del cuaderno en orden. Cada paso trae Café Fandango resuelto, en 
 - **Pasos 9 y 10.** Checklist de la sesión 1 y escalera de preguntas. Sin prompt.
 - **Paso 11.** `prompts/s2-b1-cohortes.md`.
 - **Paso 12.** `prompts/s2-b2-churn.md`. Descarga `riesgo.csv` y apunta el umbral de riesgo alto.
-- **Paso 13.** `prompts/s2-b3-ltv.md`. Descarga `riesgo_valor.csv`.
+- **Paso 13.** `prompts/s2-b3-ltv.md`. En la tienda, descarga `riesgo_valor.csv`.
 - **Paso 14.** `prompts/s2-b4-demanda.md`.
 - **Pasos 15 y 16.** `prompts/s2-b5-activacion.md`.
 - **Pasos 17 y 18.** Ficha de riesgos y checklist de la sesión 2. Sin prompt.
@@ -69,7 +69,7 @@ Los datos van de junio de 2025 a noviembre de 2026 (noviembre está incompleto).
 
 1. Cuando la slide diga «Cuaderno, paso N», abre ese paso en `cuaderno/clase/` o en `cuaderno-de-clase.docx`. Si no estuviste en clase, sigue «Si no estuviste en clase».
 2. En las prácticas con IA, abre el prompt de `prompts/`, adjunta los CSV que pide y `datos/diccionario.md`. Algunas prácticas terminan con un archivo que descargas y adjuntas en la siguiente (`prompts/README.md`).
-3. Comprueba siempre dos cifras a mano con una hoja de cálculo.
+3. Comprueba siempre dos cifras a mano con una hoja de cálculo. En Excel no abras los CSV con doble clic, porque se descolocan las columnas y las tildes: usa **Datos** > **Obtener datos** > **Desde texto/CSV** (origen UTF-8, delimitador coma) y guarda como **CSV UTF-8 (delimitado por comas)**.
 
 ## Para tu proyecto
 

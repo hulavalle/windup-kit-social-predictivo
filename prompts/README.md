@@ -7,7 +7,7 @@ Un archivo por práctica. Sirven igual en ChatGPT, Claude y Gemini: usa el que t
 ## Plan gratuito y archivos de una práctica a otra
 
 - Las prácticas se hacen con el plan gratuito de ChatGPT, Claude o Gemini. El plan gratuito tiene límites de archivos adjuntos y de mensajes. Si llegas al límite, cambia de asistente (los prompts sirven en los tres) o trabaja en pareja con un compañero.
-- La práctica de churn termina con `riesgo.csv` y la de LTV con `riesgo_valor.csv`. Descárgalos: la de activación adjunta `riesgo_valor.csv`. Apunta también el umbral de riesgo alto que da la práctica de churn: lo pide la de activación.
+- La práctica de churn termina con `riesgo.csv`. En la tienda, la de LTV termina con `riesgo_valor.csv` y la de activación lo adjunta; en cafeterías no hay `riesgo_valor.csv` y la de activación adjunta `riesgo.csv`. Descárgalos. En la tienda, apunta también el umbral de riesgo alto que da la práctica de churn: lo pide la de activación.
 - Para descargar un archivo que genera la IA: la IA lo deja en su respuesta como un enlace o un archivo; púlsalo para descargarlo. Si solo te enseña el texto, pídele «Dame el archivo para descargar», o copia la tabla a tu hoja de cálculo y guárdala como CSV con ese nombre.
 
 ## Analizar con IA en 4 pasos
