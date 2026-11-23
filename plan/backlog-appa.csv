@@ -1,0 +1,2 @@
+id,etapa_aarrr,punto_de_mejora,hipotesis,impacto,confianza,facilidad,ice,tipo,grupo_control,metrica_primaria,contrapeso,muestra_y_duracion,decision_previa,estado,resultado
+retencion-001,Retención,Los suscriptores de riesgo alto se van sin que nadie lo sepa,"Si contactamos a los suscriptores de alto valor con riesgo, entonces baja su churn a 60 días",8,5,7,280,test,20 % del segmento al azar,churn a 60 días,margen perdido en descuentos,varios meses (39 suscriptores de riesgo al mes),"si el churn del grupo contactado baja frente al de control, se lanza al CRM",backlog,

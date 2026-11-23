@@ -1,0 +1,11 @@
+id,accion_negocio,tipo,evento_ga4,parametros,activador_gtm,condicion,evento_clave,pregunta_de_negocio,contrapeso,etapa_aarrr
+1,Ve el listado de cafés,micro,view_item_list,"item_list_name, items",Evento personalizado,event = view_item_list,no,¿Qué cafés miran antes de decidir?,,
+2,Abre la ficha de un café,micro,view_item,"currency, value, items",Evento personalizado,event = view_item,no,¿Qué orígenes despiertan interés?,,
+3,Añade un café al carrito,micro,add_to_cart,"currency, value, items",Evento personalizado,event = add_to_cart,no,¿Dónde se pierden los que no compran?,,
+4,Lee la guía de preparación (75 % de scroll),micro,page_read,"percent_scrolled, page_path",Profundidad de desplazamiento,75 % vertical en /guia.html,no,¿El contenido educativo acerca a la compra?,,
+5,Pasa 5 segundos en la ficha de un café,micro,timer_5s,page_path,Temporizador,5000 ms una vez por página en /producto.html,no,¿La ficha retiene o se abandona al instante?,,
+6,Clic en «Suscribirme» del hero,micro,cta_click,"element_id, element_text",Clic - Todos los elementos,Click ID = cta-suscribirme-hero,no,¿La promesa de la portada funciona?,,
+7,Empieza el pago,micro,begin_checkout,"currency, value, items",Evento personalizado,event = begin_checkout,no,¿Cuántos carritos llegan al pago?,,
+8,Compra un café,macro,purchase,"transaction_id, value, currency, items",Evento personalizado,event = purchase (items con item_category distinto de Suscripción),sí,¿Qué canal trae ventas?,menos del 3 % de pedidos devueltos,
+9,Se suscribe al plan mensual,macro,purchase,"transaction_id, value, currency, items",Evento personalizado,event = purchase (item_category = Suscripción),sí,¿Qué canal trae clientes que repiten?,menos del 10 % de bajas en 30 días,
+10,Envía el formulario para cafeterías,macro,generate_lead,"lead_type=b2b, form_id",Envío de formulario,Form ID = form-b2b,sí,¿Qué canal trae negocio B2B?,al menos un 70 % de solicitudes válidas,
