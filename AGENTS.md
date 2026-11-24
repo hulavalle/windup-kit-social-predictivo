@@ -27,7 +27,7 @@ Trabajas en un repositorio de analítica de marketing: redes sociales, cohortes,
 
 ## Cuaderno
 
-- La persona rellena los `.docx` a mano en Word. No ejecutes `cuaderno/construir_docx.py` ni edites `cuaderno/` salvo que te lo pida: regenerar sobrescribe los `.docx` y borra sus respuestas. Si te lo pide, dile antes que guarde una copia de su `.docx` con otro nombre.
+- La persona rellena `cuaderno/cuaderno-de-clase.pdf` en su ordenador y, después de clase, su plantilla `.docx` en Word. No edites ni regeneres nada de `cuaderno/` salvo que te lo pida: `cuaderno/construir_docx.py` sobrescribe los `.docx` y borra sus respuestas, y el PDF no sale de este repositorio. Si te lo pide, dile antes que guarde una copia con otro nombre.
 
 ## Límites
 

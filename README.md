@@ -19,7 +19,7 @@ El plan gratuito de los asistentes tiene límites de archivos adjuntos y de mens
 ## Por dónde empezar
 
 1. **Crea tu copia del kit.** Entra en [github.com/hulavalle/windup-kit-social-predictivo](https://github.com/hulavalle/windup-kit-social-predictivo) y pulsa **Use this template** > **Create a new repository**. Ponle el nombre de tu proyecto y elige **Private**: tu copia va a tener datos de tu proyecto. Después, llévala a tu ordenador: en tu copia, pulsa **Code** > **Download ZIP** y descomprímelo, o clónala con GitHub Desktop. Trabaja sobre esa carpeta. Si no usas GitHub, pulsa el botón **Code** > **Download ZIP** y descomprímelo en tu ordenador.
-2. **Abre `cuaderno/cuaderno-de-clase.docx` en el paso 0.**
+2. **Rellena `cuaderno/cuaderno-de-clase.pdf` en tu ordenador, desde el paso 0.** Ábrelo con Adobe Acrobat Reader (gratis) o con Vista Previa en Mac, escribe en las celdas grises, marca las casillas y guarda el archivo. Nada se hace en papel.
 
 ## Si no estuviste en clase
 
@@ -49,7 +49,7 @@ Las prácticas no lo necesitan: `datos/` ya trae Café Fandango y su matriz est�
 | --- | --- | --- |
 | `datos/` | Los datos de Café Fandango en CSV y `diccionario.md`, que explica cada columna | En todas las prácticas |
 | `prompts/` | Un prompt por práctica, para ChatGPT, Claude o Gemini | En las prácticas con IA |
-| `cuaderno/` | `cuaderno-de-clase.docx`: los 19 pasos en versión corta. `plantilla-ecommerce.docx` y `plantilla-leadgen.docx`: los 19 pasos completos para proyectos reales. Sus fuentes en markdown están en `cuaderno/clase/` y `cuaderno/plantilla/` | El cuaderno de clase, en clase. La plantilla, después, con datos de tu proyecto |
+| `cuaderno/` | `cuaderno-de-clase.pdf`: los 19 pasos en versión corta, el cuaderno que rellenas en tu ordenador durante la clase (`cuaderno-de-clase.docx` es el mismo texto en Word). `plantilla-ecommerce.docx` y `plantilla-leadgen.docx`: los 19 pasos completos para proyectos reales. Sus fuentes en markdown están en `cuaderno/clase/` y `cuaderno/plantilla/` | El cuaderno de clase, en clase. La plantilla, después, con datos de tu proyecto |
 | `mcp.md` | Cómo conectar tus redes, GA4, tu tienda o tu CRM a la IA (MCP): qué existe, en qué asistente funciona y con qué reglas | En tu proyecto, en lugar de exportar CSV |
 | `chuleta.md` | AARRR, UTMs, fórmulas, cohortes, churn, APPA y el método de IA en una página | Para consultar |
 | `plan/` | Plantillas en CSV para tu proyecto: objetivos, costes y backlog de experimentos (las filas que traen son ejemplos de Café Fandango: sustitúyelas) | Cuando lo apliques |
@@ -67,7 +67,7 @@ Los datos van de junio de 2025 a noviembre de 2026 (noviembre está incompleto).
 
 ## En clase
 
-1. Cuando la slide diga «Cuaderno, paso N», abre ese paso en `cuaderno/clase/` o en `cuaderno-de-clase.docx`. Si no estuviste en clase, sigue «Si no estuviste en clase».
+1. Cuando la slide diga «Cuaderno, paso N», abre ese paso en `cuaderno/cuaderno-de-clase.pdf` y rellénalo ahí. Si no estuviste en clase, sigue «Si no estuviste en clase».
 2. En las prácticas con IA, abre el prompt de `prompts/`, adjunta los CSV que pide y `datos/diccionario.md`. Algunas prácticas terminan con un archivo que descargas y adjuntas en la siguiente (`prompts/README.md`).
 3. Comprueba siempre dos cifras a mano con una hoja de cálculo. En Excel no abras los CSV con doble clic, porque se descolocan las columnas y las tildes: usa **Datos** > **Obtener datos** > **Desde texto/CSV** (origen UTF-8, delimitador coma) y guarda como **CSV UTF-8 (delimitado por comas)**.
 
