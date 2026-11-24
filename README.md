@@ -49,7 +49,7 @@ Las prácticas no lo necesitan: `datos/` ya trae Café Fandango y su matriz est�
 | --- | --- | --- |
 | `datos/` | Los datos de Café Fandango en CSV y `diccionario.md`, que explica cada columna | En todas las prácticas |
 | `prompts/` | Un prompt por práctica, para ChatGPT, Claude o Gemini | En las prácticas con IA |
-| `cuaderno/` | `cuaderno-de-clase.docx`: los 19 pasos en versión corta. `plantilla-ecommerce.docx` y `plantilla-leadgen.docx`: los 19 pasos completos para proyectos reales. Sus fuentes en markdown están en `cuaderno/clase/` y `cuaderno/plantilla/` | El cuaderno de clase, en clase. La plantilla, después, con datos de tu proyecto |
+| `cuaderno/` | `cuaderno-de-clase.docx`: los 19 pasos en versión corta. `cuaderno-de-clase.pdf`: el mismo cuaderno maquetado para imprimir. `plantilla-ecommerce.docx` y `plantilla-leadgen.docx`: los 19 pasos completos para proyectos reales. Sus fuentes en markdown están en `cuaderno/clase/` y `cuaderno/plantilla/` | El cuaderno de clase, en clase. La plantilla, después, con datos de tu proyecto |
 | `mcp.md` | Cómo conectar tus redes, GA4, tu tienda o tu CRM a la IA (MCP): qué existe, en qué asistente funciona y con qué reglas | En tu proyecto, en lugar de exportar CSV |
 | `chuleta.md` | AARRR, UTMs, fórmulas, cohortes, churn, APPA y el método de IA en una página | Para consultar |
 | `plan/` | Plantillas en CSV para tu proyecto: objetivos, costes y backlog de experimentos (las filas que traen son ejemplos de Café Fandango: sustitúyelas) | Cuando lo apliques |
